@@ -317,3 +317,38 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+.layout-secoes h3, 
+.layout-secoes h4 {
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+.layout-secoes h3 {
+    margin-top: 40px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+.cabecalho-curriculo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.texto-resumo {
+    flex: 1;
+}
+
+.texto-resumo h3 {
+    margin-top: 0;
+}
+
+.foto-curriculo {
+    width: 120px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    flex-shrink: 0;
+}
